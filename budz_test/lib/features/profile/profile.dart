@@ -1,0 +1,1 @@
+export './presenter/pages/profile_page.dart';

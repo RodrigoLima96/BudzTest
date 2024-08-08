@@ -1,0 +1,1 @@
+export './presenter/pages/journeys_page.dart';

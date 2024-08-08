@@ -1,0 +1,1 @@
+export './presenter/pages/buddy_ia_page.dart';
