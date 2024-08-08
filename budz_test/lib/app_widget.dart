@@ -11,6 +11,9 @@ class AppWidget extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Budz Test',
       routerConfig: Modular.routerConfig,
+      theme: ThemeData(
+        fontFamily: 'Outfit',
+      ),
     );
   }
 }

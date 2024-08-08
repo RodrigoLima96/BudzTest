@@ -12,6 +12,8 @@ class HomeStore = _HomeStoreBase with _$HomeStore;
 
 abstract class _HomeStoreBase with Store {
   final GetHomePageInfoUserUsecase getHomePageInfoUserUsecase;
+
+  @observable
   HomeEntity? homeEntity;
 
   @observable
