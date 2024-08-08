@@ -14,13 +14,18 @@ dependencies:
   flutter_modular: ^6.3.4
   flutter_svg: ^2.0.10+1
   dartz: ^0.10.1
+  mobx: ^2.3.3+2
+  flutter_mobx: ^2.2.1+1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^3.0.0
+  build_runner: ^2.4.9
+  mobx_codegen: ^2.6.1
 
 flutter:
   uses-material-design: true
   assets:
     - assets/icons/
+    - assets/json/

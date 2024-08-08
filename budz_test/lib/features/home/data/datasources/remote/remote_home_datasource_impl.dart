@@ -1,6 +1,4 @@
 import '../../../../../core/core.dart';
-import 'remote_test_data/remote_test_data.dart';
-
 import '../../data.dart';
 
 class RemoteHomeDataSourceImpl implements IRemoteHomeDataSource {

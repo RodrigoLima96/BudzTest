@@ -11,4 +11,17 @@ class BannerModel extends BannerEntity {
     required super.targetSpecie,
     required super.imageUrl,
   });
+
+  factory BannerModel.fromJson(Map<String, dynamic> json) {
+    return BannerModel(
+      id: json['id'] ?? '',
+      status: json['status'] ?? false,
+      audience: json['audience'] ?? '',
+      partner: json['partner'] ?? '',
+      priority: json['priority'] ?? 0,
+      link: json['link'] ?? '',
+      targetSpecie: json['targetSpecie'] ?? '',
+      imageUrl: json['imageURL'] ?? '',
+    );
+  }
 }
