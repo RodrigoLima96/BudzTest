@@ -34,7 +34,7 @@ class AppBottomNavigationBar extends StatelessWidget {
                     );
                   }
                   return const TextStyle(
-                    color: AppPallette.primaryTextColor,
+                    color: AppPallette.secondaryTextColor,
                     fontWeight: FontWeight.w400,
                     fontSize: 12,
                   );
