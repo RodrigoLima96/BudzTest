@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../../../../core/core.dart';
+
 class BuddyIAPage extends StatelessWidget {
   const BuddyIAPage({super.key});
 
@@ -9,7 +11,7 @@ class BuddyIAPage extends StatelessWidget {
         body: Center(
       child: Text(
         'Buddy IA Page',
-        style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
+        style: AppStyle.boldTextStyle,
       ),
     ));
   }

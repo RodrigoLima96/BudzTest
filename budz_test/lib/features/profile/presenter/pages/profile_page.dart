@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../../../../core/core.dart';
+
 class ProfilePage extends StatelessWidget {
   const ProfilePage({super.key});
 
@@ -9,7 +11,7 @@ class ProfilePage extends StatelessWidget {
       body: Center(
         child: Text(
           'Profile Page',
-          style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
+          style: AppStyle.boldTextStyle,
         ),
       ),
     );

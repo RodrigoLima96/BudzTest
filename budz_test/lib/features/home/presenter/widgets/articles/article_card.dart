@@ -7,7 +7,7 @@ import '../widgets.dart';
 
 class ArticleCard extends StatelessWidget {
   final ArticleEntity article;
-  
+
   const ArticleCard({
     super.key,
     required this.article,
@@ -43,10 +43,9 @@ class ArticleCard extends StatelessWidget {
                       alignment: Alignment.center,
                       child: Text(
                         article.name,
-                        style: const TextStyle(
-                          color: AppPallette.whiteColor,
-                          fontWeight: FontWeight.w600,
+                        style: AppStyle.mediumTextStyle.copyWith(
                           fontSize: 14,
+                          color: AppPallette.whiteColor,
                         ),
                       ),
                     ),
@@ -58,11 +57,7 @@ class ArticleCard extends StatelessWidget {
                     ),
                     child: Text(
                       article.title,
-                      style: const TextStyle(
-                        color: AppPallette.blackColor,
-                        fontWeight: FontWeight.w600,
-                        fontSize: 16,
-                      ),
+                      style: AppStyle.mediumTextStyle,
                       softWrap: true,
                       overflow: TextOverflow.clip,
                     ),

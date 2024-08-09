@@ -28,14 +28,11 @@ class SessionTitle extends StatelessWidget {
             children: [
               Text(
                 title,
-                style:
-                    const TextStyle(fontWeight: FontWeight.w700, fontSize: 20),
+                style: AppStyle.boldTextStyle,
               ),
               Text(
                 description,
-                style: const TextStyle(
-                  fontWeight: FontWeight.w400,
-                  fontSize: 14,
+                style: AppStyle.regularTextStyle.copyWith(
                   color: AppPallette.secondaryTextColor,
                 ),
               ),
@@ -52,10 +49,9 @@ class SessionTitle extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
-                  const Text(
+                  Text(
                     'Ver tudo',
-                    style: TextStyle(
-                      fontWeight: FontWeight.w600,
+                    style: AppStyle.mediumTextStyle.copyWith(
                       fontSize: 14,
                       color: AppPallette.darkBlueColor,
                     ),

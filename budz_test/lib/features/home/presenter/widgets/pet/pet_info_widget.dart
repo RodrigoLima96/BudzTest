@@ -38,10 +38,7 @@ class PetInfoWidget extends StatelessWidget {
                     const Text(
                       // petEntity.name,
                       'Max',
-                      style: TextStyle(
-                        fontWeight: FontWeight.w700,
-                        fontSize: 20,
-                      ),
+                      style: AppStyle.boldTextStyle,
                     ),
                     Padding(
                       padding: const EdgeInsets.only(left: 10),
@@ -64,12 +61,10 @@ class PetInfoWidget extends StatelessWidget {
                     ),
                   ],
                 ),
-                const Text(
+                Text(
                   // petEntity.breed,
                   'Buldogue francês',
-                  style: TextStyle(
-                    fontWeight: FontWeight.w400,
-                    fontSize: 14,
+                  style: AppStyle.regularTextStyle.copyWith(
                     color: AppPallette.secondaryTextColor,
                   ),
                 )

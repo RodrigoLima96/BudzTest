@@ -26,19 +26,12 @@ class PetDetailCard extends StatelessWidget {
           children: [
             Text(
               title,
-              style: const TextStyle(
-                fontWeight: FontWeight.w400,
-                fontSize: 14,
-                color: AppPallette.secondaryTextColor,
-              ),
+              style: AppStyle.regularTextStyle.copyWith(color: AppPallette.secondaryTextColor),
             ),
             detail != ''
                 ? Text(
                     detail,
-                    style: const TextStyle(
-                      fontWeight: FontWeight.w600,
-                      fontSize: 16,
-                    ),
+                    style: AppStyle.mediumTextStyle,
                   )
                 : Padding(
                     padding: const EdgeInsets.only(top: 12, left: 2),

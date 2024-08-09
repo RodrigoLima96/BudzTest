@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../../../../core/core.dart';
+
 class JourneysPage extends StatelessWidget {
   const JourneysPage({super.key});
 
@@ -9,7 +11,7 @@ class JourneysPage extends StatelessWidget {
       body: Center(
         child: Text(
           'Journeys Page',
-          style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
+          style: AppStyle.boldTextStyle,
         ),
       ),
     );
