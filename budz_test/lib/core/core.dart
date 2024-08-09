@@ -3,4 +3,4 @@ export './constants/constants.dart';
 export './widgets/widgets.dart';
 export './errors/errors.dart';
 export './usecases/usecase.dart';
-export './utils/show_custom_snackbar.dart';
+export './utils/utils.dart';

@@ -10,5 +10,4 @@ class AppPallette {
   static const Color lightBlueColor = Color.fromARGB(255, 222, 250, 253);
   static const Color mediumBlueColor = Color.fromARGB(255, 106, 223, 241);
   static const Color darkBlueColor = Color.fromARGB(255, 35, 112, 240);
-
 }

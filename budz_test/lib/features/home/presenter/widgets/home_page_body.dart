@@ -18,6 +18,8 @@ class HomePageBody extends StatelessWidget {
               PetDetailsWidget(petEntity: homeEntity.petEntity),
               BannersWidget(banners: homeEntity.banners),
               JourneysWidget(categories: homeEntity.categories),
+              SingleBannerWidget(banners: homeEntity.banners),
+              ArticlesWidget(articles: homeEntity.articles),
             ],
           ),
         ),

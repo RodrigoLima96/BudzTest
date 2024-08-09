@@ -14,7 +14,6 @@ class BannersWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-  
     // sorting by priority, and placing priority 7 last
     final sortedBanners = banners
       ..sort((a, b) {
@@ -37,7 +36,12 @@ class BannersWidget extends StatelessWidget {
             activeColor: AppPallette.mediumBlueColor,
             viewportFraction: 0.90,
             customizedBanners: sortedBanners.map((banner) {
-              return BannerCard(image: banner.imageUrl);
+              return BannerCard(
+                image: banner.imageUrl,
+                width: 342,
+                height: 136,
+                singleBanner: false,
+              );
             }).toList(),
           ),
           const SizedBox(
