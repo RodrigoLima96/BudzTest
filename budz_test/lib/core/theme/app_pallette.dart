@@ -8,5 +8,7 @@ class AppPallette {
   static const Color primaryColor = Color.fromARGB(255, 23, 29, 31);
   static const Color secondaryTextColor = Color.fromARGB(255, 58, 72, 77);
   static const Color lightBlueColor = Color.fromARGB(255, 222, 250, 253);
+  static const Color mediumBlueColor = Color.fromARGB(255, 106, 223, 241);
   static const Color darkBlueColor = Color.fromARGB(255, 35, 112, 240);
+
 }

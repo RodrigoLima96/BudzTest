@@ -13,7 +13,8 @@ class PetInfoWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SizedBox(
+    return Container(
+      padding: const EdgeInsets.only(left: 20),
       height: 96,
       child: Row(
         children: [

@@ -10,11 +10,12 @@ class HomePageBody extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Padding(
-        padding: const EdgeInsets.only(top: 50, left: 20),
+        padding: const EdgeInsets.only(top: 50),
         child: Column(
           children: [
             PetInfoWidget(petEntity: homeEntity.petEntity),
             PetDetailsWidget(petEntity: homeEntity.petEntity),
+            BannersWidget(banners: homeEntity.banners),
           ],
         ),
       ),
