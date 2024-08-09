@@ -20,6 +20,9 @@ abstract class _HomeStoreBase with Store {
   HomeStoreState getHomeDataState = HomeStoreState.notStarted;
   String getHomeDataFailureMessage = '';
 
+  @observable
+  bool showPetDetails = true;
+
   _HomeStoreBase({required this.getHomePageInfoUserUsecase});
 
   @action
@@ -36,5 +39,10 @@ abstract class _HomeStoreBase with Store {
         getHomeDataState = HomeStoreState.success;
       },
     );
+  }
+
+  @action
+  showOrHidePetDetails() {
+    showPetDetails = !showPetDetails;
   }
 }

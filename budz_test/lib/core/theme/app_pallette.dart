@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 class AppPallette {
   static const Color blackColor = Color.fromARGB(255, 0, 0, 0);
   static const Color whiteColor = Color.fromARGB(255, 255, 255, 255);
+  static const Color transparentColor = Colors.transparent;
   static const Color greyColor = Colors.grey;
   static const Color secondaryColor = Color.fromARGB(255, 240, 240, 240);
   static const Color primaryColor = Color.fromARGB(255, 23, 29, 31);
