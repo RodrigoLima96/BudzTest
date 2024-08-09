@@ -11,12 +11,15 @@ class HomePageBody extends StatelessWidget {
     return Scaffold(
       body: Padding(
         padding: const EdgeInsets.only(top: 50),
-        child: Column(
-          children: [
-            PetInfoWidget(petEntity: homeEntity.petEntity),
-            PetDetailsWidget(petEntity: homeEntity.petEntity),
-            BannersWidget(banners: homeEntity.banners),
-          ],
+        child: SingleChildScrollView(
+          child: Column(
+            children: [
+              PetInfoWidget(petEntity: homeEntity.petEntity),
+              PetDetailsWidget(petEntity: homeEntity.petEntity),
+              BannersWidget(banners: homeEntity.banners),
+              JourneysWidget(categories: homeEntity.categories),
+            ],
+          ),
         ),
       ),
     );
