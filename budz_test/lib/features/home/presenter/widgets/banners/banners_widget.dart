@@ -4,8 +4,8 @@ import 'package:banner_carousel/banner_carousel.dart';
 import 'package:budz_test/core/core.dart';
 import 'package:flutter/material.dart';
 
-import '../../domain/domain.dart';
-import 'widgets.dart';
+import '../../../domain/domain.dart';
+import '../widgets.dart';
 
 class BannersWidget extends StatelessWidget {
   final List<BannerEntity> banners;

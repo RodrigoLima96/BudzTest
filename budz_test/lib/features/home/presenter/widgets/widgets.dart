@@ -1,10 +1,10 @@
 export './home_page_body.dart';
-export './pet_info_widget.dart';
-export './pet_details_widget.dart';
-export './banners_widget.dart';
-export './banner_card.dart';
+export './pet/pet_info_widget.dart';
+export './pet/pet_details_widget.dart';
+export './banners/banners_widget.dart';
+export './banners/banner_card.dart';
 export './session_title.dart';
-export './journeys_widget.dart';
+export './journeys/journeys_widget.dart';
 export './image_card.dart';
-export './single_banner_widget.dart';
-export './articles_widget.dart';
+export './banners/single_banner_widget.dart';
+export './articles/articles_widget.dart';

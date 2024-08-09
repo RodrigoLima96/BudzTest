@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import '../../../features.dart';
-import 'widgets.dart';
+import '../../../../features.dart';
+import '../widgets.dart';
 
 class SingleBannerWidget extends StatelessWidget {
   final List<BannerEntity> banners;
